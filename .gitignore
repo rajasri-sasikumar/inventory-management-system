@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Migrations
+apps/*/migrations/*
+
+# Environment Variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+
+# Static / Media
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Build
+dist/
+build/
